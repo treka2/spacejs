@@ -430,7 +430,7 @@ a.active {
   position: absolute;
   bottom: 20px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 50%;
   transition: 0.4s;
 }
@@ -441,7 +441,7 @@ a.active {
   background-color: inherit;
   mix-blend-mode: screen;
   padding: 0.3rem 1.2rem;
-  margin-right:15px;
+  
   color: #fff;
   border-radius: 8px;
   font-weight: bold;
