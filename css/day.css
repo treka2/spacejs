@@ -431,7 +431,7 @@ a.active {
   bottom: 20px;
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  width: 70%;
   transition: 0.4s;
 }
 .system-view .btn {
