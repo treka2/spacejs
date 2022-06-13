@@ -435,7 +435,7 @@ a.active {
   transition: 0.4s;
 }
 .system-view .btn {
-  min-width: 70px;
+/*   min-width: 70px; */
   text-align: center;
   position: relative;
   background-color: inherit;
