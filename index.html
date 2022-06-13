@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day moon</title>
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/day.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- strt header  -->
+    <header>
+      <div class="logo">trekka</div>
+      <nav>
+        <ul>
+          <li>
+            <a href="#" class="active"><i class="fa-solid fa-house"></i></a>
+          </li>
+          <li><a href="#products" class="prod-link">Product</a></li>
+          <li><a href="#about" class="about-link">About</a></li>
+          <li><a href="#contact" class="contact-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- end hdr  -->
+    <!-- ########  -->
+    <!-- strt landing  -->
+    <section class="landing">
+      <img src="./imgs/stars1.webp" alt="stars"class="stars" />
+      <img src="./imgs/moon2.webp" alt="moon" class="moon"/>
+      <img src="./imgs/mountains3.webp" alt="" class="last-mount"/>
+      <img src="./imgs/mountains4.webp" alt="" />
+      <img src="./imgs/river5.webp" alt="" />
+      <img src="./imgs/boat6.webp" alt="" class="boat" />
+      <img src="./imgs/mountains7.webp" alt="" />
+
+      <img src="./imgs/sun0.png" alt="" class="sun" />
+      <h2>Trekka</h2>
+    </section>
+
+    <!-- end landing  -->
+    <!-- ########  -->
+    <!-- start prosuct -->
+    <section class="products" id="products">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1441 320">
+        <defs>
+          <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop
+              offset="0%"
+              style="stop-color: transparent; stop-opacity: 1"
+            />
+            <stop offset="100%" style="stop-color: #200016; stop-opacity: 1" />
+          </linearGradient>
+        </defs>
+        <path
+          fill="url(#grad)"
+          fill-opacity="1"
+          d="M0,160L720,96L1440,32L1440,0L720,0L0,0Z"
+        ></path>
+      </svg>
+      <div class="school-slide">
+        <div class="slideshow-container">
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+           
+            <img src="./imgs/p1.svg"  />
+           
+          </div>
+  
+          <div class="mySlides fade">
+           
+            <img src="./imgs/p2.svg" />
+        
+          </div>
+  
+          <div class="mySlides fade">
+         
+            <img src="./imgs/p6.svg"  />
+          
+          </div>
+  
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br />
+  
+        <!-- The dots/circles -->
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </div>
+      <div class="curved"></div>
+    </section>
+    
+    <!-- end prods  -->
+    <!-- ######### -->
+    <!-- @@@@@@@@@@@@@@@@@@ -->
+    <!-- slidcom -->
+    <section class="image-carousel about" id="about">
+
+      <div class="swiper">
+    
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="./imgs/p4.svg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./imgs/p5.svg"  />
+          </div>
+          <div class="swiper-slide">
+            <img src="./imgs/p3.svg" />
+          </div>
+          
+        </div>
+    
+        <div class="swiper-pagination"></div>
+
+    
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+       
+    </section>
+  <!-- space solar  -->
+  <section class="space-system">
+    <div class="system-container">
+      <div class="system-sun"></div>
+     <div class="circles">
+      <div class="system-circle c1"></div>
+      <div class="system-circle c2"></div>
+      <div class="system-circle c3"></div>
+      <div class="system-circle c4"></div>
+    
+     </div>
+     <!-- system-view -->
+<div class="system-view">
+<div class=" btn btn-norm"> Normal </div>
+<div class="btn btn-3d"> 3D </div>
+</div>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+<div class="contact-container">
+  <div class="contact-info">
+    <p>join our journey</p>
+    <h2>Contact Us</h2>
+    <span class="num">+201020148313</span>
+    <p class="adress">
+      10st birElabd N.sinai, 
+<span class="day"></span>  <span class="month"></span> <span class="clock"></span>
+    </p>
+    <h2>Follow Us</h2>
+    <ul class="social">
+      <li><a href="https://twitter.com/trekka__"target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+      <li><a href= "https://instagram.com/trekka__?igshid=YmMyMTA2M2Y="target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+      <li><a href="https://twitter.com/trekka__"target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+    </ul>
+    <div class="copy-right">
+      &copy;<span class="year"></span>trekka
+    </div>
+  </div>
+  <div class="contact-join">
+    <form action="">
+    <input type="text" name="" id="user-name"placeholder="your name">
+    <input type="email" name="user-mail" id=""placeholder="your e-mail">
+    <textarea name="" id=""placeholder="your opinion"></textarea>
+    <input type="submit" value="send">
+  </form>
+</div>
+</div>
+  </section>
+  <footer>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, odio accusantium?</p>
+  </footer>
+    <!-- js  -->
+    <script src="./day.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+  // Optional parameters
+  // direction: "vertical",
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: ".swiper-pagination",
+    clickable:true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+    </script>
+  </body>
+</html>
